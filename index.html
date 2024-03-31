@@ -15,13 +15,18 @@
 </head>
 <body>
 <!-- <a-light color="red" position="-1 1 0"></a-light> -->
+
+
 <a-scene
   renderer="colorManagement: true;"
-  model-viewer="gltfModel: #triceratops;">
-
-  <!-- 加载模型所需的资源 -->
+  model-viewer="gltfModel: #triceratops">
   <a-assets>
     <a-asset-item id="triceratops" src="armModel.glb"></a-asset-item>
+
+    <a-asset-item id="triceratops" src="armModel.glb"></a-asset-item>
+
+    <img id="shadow" src="Assets/shadow.png"></img>
+    <!-- <a-asset-item id="messageText" src="message.html"></a-asset-item> -->
   </a-assets>
 </a-scene>
 </body>
